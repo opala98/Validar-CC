@@ -146,8 +146,7 @@ span{
 }
 
 div{
-    margin-left: 45%;
-    margin-top: 2%;
+    margin-top: 1%;
 }
 
 .span{
@@ -157,6 +156,7 @@ div{
 
 #process{
     animation: piscar 1.5s linear infinite;
+    margin-left: 30%;
 }
 
 @keyframes piscar {
@@ -169,6 +169,20 @@ div{
     100%{
         opacity: 0;
     }
+}
+
+#pronto{
+    margin-left: 30%;    
+}
+
+#pronto{
+    margin-left: 30%; 
+}
+#bandeira{
+    margin-left: 25%;
+}
+#msg{
+    margin-left: 12%;
 }
 
 #mensagens{
