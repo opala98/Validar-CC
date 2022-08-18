@@ -1,0 +1,179 @@
+.col-1 {width: 8.43%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.97%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+}
+
+body{
+    background-image: url(img/azul.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+
+
+/*------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+main{
+    margin: 0 auto;
+    margin-top: 3.5%;
+    height: 40em;
+    border: solid 2px rgba(0, 0, 0, 0);
+    background-color: rgb(175, 175, 175);
+    border-radius: 25px;
+}
+
+button{
+    margin: 0 auto;
+    height: 85%;
+    border: solid 2px rgb(0, 0, 0);
+    background-color: rgb(28, 255, 28);
+    margin-top: 2%;
+    margin-left: 4%;
+    font-size: 14pt;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    border-radius: 50px;
+}
+
+#m-a1{
+    margin: 0 auto;
+    height: 5.6em;
+    border: solid 2px rgba(0, 0, 0, 0);
+    background-color: rgba(20, 255, 177, 0);
+    margin-top: 4%;
+}
+
+#m-a1-sec1{
+    height: 85%;
+    border: solid 2px rgb(0, 0, 0);
+    background-color: rgb(28, 237, 255);
+    margin: 0 auto;
+    margin-top: 1%;
+    font-size: 17pt;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    border-radius: 50px;
+}
+
+#m-a2{
+    margin: 0 auto;
+    height: 7em;
+    border: solid 2px rgba(0, 0, 0, 0);
+    background-color: rgba(20, 255, 177, 0);
+    margin-top: 4%;
+}
+
+.m-a2-sec{
+    height: 85%;
+    border: solid 2px rgba(0, 0, 0, 0);
+    background-color: rgba(28, 236, 255, 0);
+    margin: 0 auto;
+    margin-top: 0.7%;
+}
+
+#m-a2-sec1{
+    float: left;
+    margin-left: 5.2%;
+}
+
+#validacao{
+    margin: 0 auto;
+    width: 99%;
+    height: 95%;
+    margin-top: 0.1%;
+    font-family: monospace;
+    font-size: 25pt;
+    border-radius: 50px;
+    border-color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+#numcc{
+    margin: 0 auto;
+    width: 99%;
+    height: 95%;
+    margin-top: 0.1%;
+    font-family: monospace;
+    font-size: 25pt;
+    border-radius: 50px;
+    border-color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+#m-a2-sec2{
+    float: right;
+    margin-right: 2%;
+    border-color: rgba(0, 0, 0, 0);
+    background-color: rgba(28, 236, 255, 0);
+}
+
+#m-a2-sec2-b1{
+    height: 95%;
+    margin-top: 1%;
+}
+
+#m-a2-sec2-b1:active{
+    opacity: 0.5;
+}
+
+#m-a3{
+    margin: 0 auto;
+    height: 5em;
+    border: solid 2px rgba(0, 0, 0, 0);
+    background-color: rgba(20, 255, 177, 0);
+    margin-top: 1%;    
+}
+
+span{
+    font-size: 25pt;
+    margin-top: 1%;
+
+}
+
+div{
+    margin-left: 45%;
+    margin-top: 2%;
+}
+
+.span{
+    display: none;
+    text-align: center;
+}
+
+#process{
+    animation: piscar 1.5s linear infinite;
+}
+
+@keyframes piscar {
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 0.7;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+
+#mensagens{
+    margin: 0 auto;
+}
+
+
+
