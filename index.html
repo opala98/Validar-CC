@@ -1,59 +1,72 @@
-<!DOCTYPE html>
-<html lang="pt-br">
+<!DOCTYPE html> 
+ <html lang="pt-br"> 
+  
+ <head> 
+     <meta charset="UTF-8"> 
+     <title>Validador de cartão de crédito</title> 
+     <link rel="stylesheet" href="estilo.css"> 
+ </head> 
+  
+ <body> 
+  
+  
+  
+     <main>
 
-<head>
-    <meta charset="UTF-8">
-    <title>Validador de cartão de crédito</title>
-    <link rel="stylesheet" href="estilo.css">
-</head>
+       <hr color="#EEE" size="3"/>
+       <hr color="#EEE" size="2"/>
+  
+         <article id="m-a1" > 
+  
+             <section id="m-a1-sec1"> 
+                 <h2 align="center">Validador de CC</h2> 
+             </section> 
+  
+         </article> 
 
-<body>
+       <hr color="#EEE" size="2"/>
+       <hr color="#EEE" size="3"/>
+       
+         <article id="m-a2"> 
+  
+             <section id="m-a2-sec1" class="m-a2-sec"> 
+                 <form action="#" id="validacao" name="validacao"> 
+                     <input id="numcc" type="text" placeholder="Digite aqui o número do cartão" maxlength="16" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*?)\..*/g, '$1');" > 
+                 </form> 
+             </section> 
+             <section id="m-a2-sec2" class="m-a2-sec"> 
+                 <button id="m-a2-sec2-b1" onclick="return validar()">VALIDAR</button> 
+             </section> 
+  
+         </article> 
+       <br />
+         <article id="m-a3"> 
+  
+             <button id="m-a3-b1" onclick = "validar_outro()">VALIDAR OUTRO</button>             
+  
+         </article> 
 
-
-
-    <main class="col-9">
-
-        <article id="m-a1" class="col-4">
-
-            <section id="m-a1-sec1" class="col-11">
-                <h2>Validador de CC</h2>
-            </section>
-
-        </article>
-        <article id="m-a2" class="col-8">
-
-            <section id="m-a2-sec1" class="col-9 m-a2-sec">
-                <form action="#" id="validacao" name="validacao">
-                    <input id="numcc" type="text" placeholder="Digite aqui o número do cartão" maxlength="16">
-                </form>
-            </section>
-            <section id="m-a2-sec2" class="col-2 m-a2-sec">
-                <button id="m-a2-sec2-b1" class="col-11" onclick="return validar()">VALIDAR</button>
-            </section>
-
-        </article>
-        <article id="m-a3" class="col-2">
-
-            <button id="m-a3-b1" class="col-11" onclick = "validar_outro()">VALIDAR OUTRO</button>            
-
-        </article>
-
-        <article id="mensagens" class="col-4">
-
-        <span id="process" class="span">Processando...</span>
-        <span id="pronto" class="span">Tudo pronto!</span><br><br>
-        <span id="msg" class="span"></span>
-        <div><span id="bandeira"></span><span id="numero"></span></div>
-
-        </article>
-
-    </main>
-
-
-
-   <script src="logica.js"></script>
-    
-</body>
-
-
-</html>
+         <br /><br />
+  
+         <article id="mensagens"> 
+  
+         <span id="process" class="span">Processando...</span> 
+          <br />
+         <span id="pronto" class="span">Tudo pronto!</span><br><br>
+         <span id="msg" class="span"></span> 
+           <br /><br /><br />
+           
+         <div ><span id="bandeira" class="span"></span><span id="numero" class="span"></span></div> 
+  
+         </article> 
+  
+     </main> 
+  
+  
+  
+    <script src="logica.js"></script> 
+  
+ </body> 
+  
+  
+     </html>
